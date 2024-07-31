@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="cls">Hello</h1>
+    <h2 class="cls">JavaScript</h2>
+    <h3 class="cls">Welcomes you</h3>
+
+
+    <script>
+        //using className
+        let headings = document.getElementsByClassName("cls");
+        console.log(headings[0].innerHTML + " " + headings[1].innerHTML + " " + headings[2].innerHTML);
+        //Using TagName
+        let tagText = document.getElementsByTagName('h1');
+        console.log(tagText[0].innerHTML);
+        
+
+    </script>
+</body>
+</html>
