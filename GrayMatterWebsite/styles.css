@@ -1,0 +1,60 @@
+.navbar-top{
+    
+    padding-top: 0.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: gray;
+    font-size: small;
+    /* border: 1px gray solid; */
+    
+   
+}
+
+.navbar-menu-itmes-link{
+    color: gray;
+    font-size: small;
+    text-decoration: none;
+}
+
+
+.contact-email{
+    margin-right: 30rem;
+}
+
+
+#navbar-items{
+
+    padding-top: 1.3rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 21.5rem;
+    align-items: center;
+
+}
+
+.navbar-bottom{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+
+  
+}
+
+.search-box{
+    /* border: 3px solid gray; */
+}
+
+#search-text-box{
+    border: none;
+}
+.graymatter-logo{
+    position: absolute;
+}
+.navbar-link{
+    color: gray;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    text-decoration: none;
+}

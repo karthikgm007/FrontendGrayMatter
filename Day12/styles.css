@@ -1,0 +1,50 @@
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        color: blueviolet;
+      }
+      #paragraph2 {
+        color: red;
+      }
+      .paragraph3 {
+        color: black;
+      }
+      .cls2 {
+        color: burlywood;
+      }
+
+      p,
+      section {
+        border: 3px solid black;
+      }
+      .container {
+        display: flex;
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+        gap: 20px;
+        background-color: #fff;
+      }
+
+      .column {
+        flex: 1;
+        padding: 20px;
+        background-color: #eaeaea;
+        border-radius: 5px;
+      }
+
+      .left-column {
+        flex-basis: 20%;
+      }
+
+      .middle-column {
+        flex-basis: 60%;
+      }
+
+      .right-column {
+        flex-basis: 20%;
+      }
